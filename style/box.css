@@ -1,0 +1,13 @@
+.box {
+    background-color: rgb(226, 233, 233);
+    border: 1px solid rgb(46, 48, 48);
+    border-radius: 5px;
+}
+
+.box_text {
+    color: rgb(46, 48, 48);
+    font-family: 'メイリオ';
+    font-weight: 1000;
+    text-align: center;
+    padding: 10px;
+}
