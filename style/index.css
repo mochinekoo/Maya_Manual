@@ -1,0 +1,63 @@
+.nav_menuBar {
+    width: 100%;
+    height: 50px;
+    background-color: #d8e3e9;
+    display: flex;
+    border-bottom: 2px solid rgb(46, 48, 48);
+    align-items: stretch;
+}
+
+.divNav_menuBar { 
+    width: 100%;
+    height: auto;
+    background-color: #d8e3e9;
+    display: flex;
+    align-items: stretch;
+}
+
+.ul_menuList {
+    margin-top: 0px;
+    margin-right: auto;
+    display: flex;
+    height: 100%;
+}
+
+.li_menuItem {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.li_menuItem a {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #313030;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'メイリオ';
+    font-weight: 1000;
+    border-bottom: 2px solid rgb(26, 27, 27);
+}
+
+.div_menuItem {
+    height: 100%;
+    color: #313030;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'メイリオ';
+    font-weight: 1000;
+}
+
+.li_menuItem:hover {
+    background-color: #313030;
+}
+
+.li_menuItem:hover a {
+    color: white;
+}
